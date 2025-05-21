@@ -93,44 +93,22 @@ python manage.py runserver
 
 With a mind to keeping your SECRET_KEY's secure
 
-### 10. Use the Included Setup Script (Recommended)
-
-This template includes a setup script to automate the initial configuration of new projects:
-
-```bash
-# Make the script executable (Unix/Linux/Mac)
-chmod +x setup.sh
-
-# Run the setup script
-./setup.sh
-```
-
-**For Windows:**
-```bash
-# Run the Windows setup script
-./setup.bat
-```
-
-### 11. Use the Included Rename Project Script (Recommended)
-
-You will likely need to rename your project after creation, use the included script:
-
-```bash
-python rename_project.py old_project_name new_project_name
-```
-
 ### Repository Management
 
 #### Update Repository URL
 
-This template includes scripts to easily update your Git remote repository URL:
-
-**For Windows:**
 ```bash
-update_remote.bat https://github.com/username/your-repo-name.git
+git remote -v
+
+git remote remove origin
+
+# Add your new repository as the origin
+git remote add origin https://github.com/yourusername/my-new-project.git
+
+# Push your code to the new repository
+git push -u origin main
 ```
 
-**For UNIX/Linux:**
-```bash
-.\update_remote.py https://github.com/username/your-repo-name.git
-```
+Now you have a django project with all auth installed ready to go make whatever you want out of it.
+
+Go get it!
