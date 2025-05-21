@@ -108,7 +108,7 @@ chmod +x setup.sh
 **For Windows:**
 ```bash
 # Run the Windows setup script
-setup.bat
+./setup.bat
 ```
 
 ### 11. Use the Included Rename Project Script (Recommended)
