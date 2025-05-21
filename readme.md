@@ -22,6 +22,12 @@ cd your-project-name
 
 ### 2. Create a virtual environment
 
+In VS code you might need to run this command before you can run any scripts
+
+```bash
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+```
+
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
