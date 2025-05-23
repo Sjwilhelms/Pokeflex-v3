@@ -1,3 +1,33 @@
+# Pokeflex v3
+
+V1 was a text input sprite fetching guessing game, V2 was a multiple choice sprite guessing game... what will V3 be?
+
+### V3 Must-Have User Stories
+
+As the developer, I want to cache pokeApi data to reduce API calls
+
+Acceptance criteria:
+
+Store the pokeflex data either cached in the browser or in the database
+
+As a user, I want pokemon I catch to stay caught to avoid repetition
+
+Acceptance criteria:
+
+Each 'caught' pokemon gets added to a pokedex factfile
+
+Each 'caught' pokemon gets removed from the guessing game
+
+As a user, I want to catch more pokemon!
+
+Acceptance criteria:
+
+When a certain 'caught' number is reached, newer generation pokemon are released into the game
+
+As a user, I want to catch all the pokemon!
+
+Well that's too bad! (more on this later)
+
 # Django AllAuth Project Template
 
 A robust Django starter project with django-allauth integration, ready for rapid development.
