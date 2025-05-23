@@ -28,6 +28,10 @@ As a user, I want to catch all the pokemon!
 
 Well that's too bad! (more on this later)
 
+### V3 Should-Have User Stories
+
+
+
 # Django AllAuth Project Template
 
 A robust Django starter project with django-allauth integration, ready for rapid development.
