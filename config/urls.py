@@ -23,7 +23,8 @@ from django.views.generic import TemplateView
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('accounts/', include('allauth.urls')),
-    path('', TemplateView.as_view(template_name='index.html'), name='home')
+    path('pokedex/', TemplateView.as_view(template_name='pokedex.html'), name="pokedex"),
+    path('', TemplateView.as_view(template_name='game.html'), name='game'),
 ]
 
 if settings.DEBUG:

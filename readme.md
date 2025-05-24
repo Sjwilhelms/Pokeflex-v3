@@ -1,10 +1,13 @@
 # Pokeflex v3
 
-V1 was a text input sprite fetching guessing game, V2 was a multiple choice sprite guessing game... what will V3 be?
+V1 was a text input sprite fetching guessing game, V2 was a multiple choice sprite guessing game.  
+These projects were both single page applictions hosted on a website.
+
+V3 is a Django project to expand and persist the game
 
 ### V3 Must-Have User Stories
 
-#### Epic: persistence
+### Epic: persistence
 
 #### User Story: As the developer, I want to cache pokeApi data to reduce API calls
 
@@ -22,7 +25,7 @@ Each 'caught' pokemon gets removed from the guessing game
 
 Each user can register and sign in and keep the pokemon they 'caught'
 
-#### Epic: Expansion
+### Epic: Expansion
 
 #### User Story: As a user, I want to catch more pokemon!
 
@@ -34,11 +37,9 @@ When a certain 'caught' number is reached, newer generation pokemon are released
 
 Well that's too bad! (more on this later)
 
-### V3 Should-Have User Stories
+## This project was spun out of a Django Project Template as outlined below
 
-
-
-# Django AllAuth Project Template
+## Django AllAuth Project Template
 
 A robust Django starter project with django-allauth integration, ready for rapid development.
 
