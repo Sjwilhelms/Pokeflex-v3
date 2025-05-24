@@ -4,13 +4,15 @@ V1 was a text input sprite fetching guessing game, V2 was a multiple choice spri
 
 ### V3 Must-Have User Stories
 
-As the developer, I want to cache pokeApi data to reduce API calls
+#### Epic: persistence
+
+###### As the developer, I want to cache pokeApi data to reduce API calls
 
 Acceptance criteria:
 
 Store the pokeflex data either cached in the browser or in the database
 
-As a user, I want pokemon I catch to stay caught to avoid repetition
+###### As a user, I want pokemon I catch to stay caught to avoid repetition
 
 Acceptance criteria:
 
@@ -18,7 +20,11 @@ Each 'caught' pokemon gets added to a pokedex factfile
 
 Each 'caught' pokemon gets removed from the guessing game
 
-As a user, I want to catch more pokemon!
+Each user can register and sign in and keep the pokemon they 'caught'
+
+#### Epic: Expansion
+
+###### As a user, I want to catch more pokemon!
 
 Acceptance criteria:
 
