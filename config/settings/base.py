@@ -27,6 +27,7 @@ INSTALLED_APPS = [
     'allauth.socialaccount',
     
     # Your apps
+    'pokemon',
 ]
 
 MIDDLEWARE = [
